@@ -28,12 +28,6 @@ $layout-width: 750px;
 $desktop-breakpoint: $layout-width / 0.9;
 $image-splitting-breakpoint: 510px;
 
-// Banner
-$banner-width: 182px;
-$banner-height: 100px;
-$banner-margin: 50px;
-$banner-border-width: 3px;
-$banner-border-offset: 2px;
 
 // Images
 // Note that extensions are omitted for use in retina-background-image mixin

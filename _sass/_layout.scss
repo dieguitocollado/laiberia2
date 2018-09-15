@@ -1,39 +1,10 @@
 #banner {
-    @include retina-background-image($img-banner);
-    outline: none;
-    display: block;
     width: $banner-width;
     height: $banner-height;
     margin: 0 auto 35px;
     position: relative; /* To ensure the bottom border is positioned correctly */
-	background-repeat: no-repeat;
-    h1 {
-        // Font is included from Google Fonts automatically unless a custom banner is used
-        // See _config.yml for details
-        font-family: $banner-font-family;
-        font-size: 24px;
-        font-weight: 400;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #fefefe;
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-    }
+	background:url(http://laiberia.net/img/banner.png) center center no-repeat;
 
-    &::after {
-        display: block;
-        position: absolute;
-        top: $banner-height;
-        left: $banner-border-offset;
-        content: "";
-        height: $banner-border-width;
-        width: $banner-width - ($banner-border-offset* 2);
-    }
-
-    @include min-breakpoint($image-splitting-breakpoint) {
-        margin-bottom: $banner-margin;
-    }
 }
 
 #footer {
