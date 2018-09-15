@@ -15,7 +15,7 @@ description: > # this means to ignore newlines until "baseurl:"
   La Iberia renace en el nuevo siglo como un espacio digital de comentario
   político y cultural.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dieguitocollado.github.io/laiberia2" # the base hostname & protocol for your site
+url: "https://dieguitocollado.github.io/laiberia2/" # the base hostname & protocol for your site
 
 # Picturefill
 # A responsive image polyfill: http://scottjehl.github.io/picturefill/
