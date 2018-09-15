@@ -1,7 +1,7 @@
 GEM
   specs:
     colorator (0.1)
-    ffi (1.9.8)
+    ffi (1.9.24)
     jekyll (3.0.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
