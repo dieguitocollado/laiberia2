@@ -1,44 +1,75 @@
-Galileo Theme
----
+# Basics
+A minimal theme for those who like to keep it simple. Makes use of bootstrap.
 
-Another damned theme for Jekyll.
+Based on the [Elephants theme](https://themes.gohugo.io/elephants/).
 
-![The Galileo Theme](https://cloud.githubusercontent.com/assets/185649/11737785/b998bd0c-a002-11e5-9c93-0ac83917f32d.png)
+## Features
+* Responsive theme
+* High contrast
+* Focus on content and readability
 
-Landing somewhere between a scholarly publication and an adventurers notebook, the Galileo theme presents your words & photographs in a handsome, agreeable manner.
+## Installation
+From your hugo site, run:
+```
+git submodule add https://github.com/arjunkrishnababu96/basics.git themes/basics
+```
 
-It is well behaved on both mobile & desktop and radically minimal in its footprint. Charged and ready for deployment to Github Pages.
+### Writing Posts
+Posts that should show up in the home page must be inside `contents/post`. Or you can change this behavior by tweaking `themes/basics/layouts/_default/list.html`.
 
-### In the wild
+You should also add an about page at `contents/about.md`.
 
-Demo [here](http://travelog.io/galileo-theme/). I'm so damned fond of this theme that I also use it on [my own blog](http://travelog.io/).
-
-### Installation
-
-- Install Jekyll: `gem install jekyll`
-- [Fork this repository](https://github.com/rowanoulton/galileo-theme/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/galileo-theme`
-- Run the jekyll server: `jekyll serve -w`
-
-Observe the results at <http://localhost:4000>.
-
-### Customisation
-
-Make changes in [_config.yml](https://github.com/rowanoulton/galileo-theme/blob/master/_config.yml), ye damned heathens.
-
-#### A note about fonts
-
-I've employed [Typekit](https://typekit.com/) to load both "[Adobe Caslon Pro](https://typekit.com/fonts/adobe-caslon-pro)" & "[LTC Bodoni 175](https://typekit.com/fonts/ltc-bodoni-175)". To make use of these with your own Typekit account, publish a kit and enter the ID into the Jekyll config.
-
-This _is_ optional. If you don't want to use Typekit, well _fine_, just leave the Typekit Kit ID blank. You'll need to elect and specify substitute fonts [here](https://github.com/rowanoulton/galileo-theme/blob/master/css/screen.scss#L7) and [here](https://github.com/rowanoulton/galileo-theme/blob/master/css/screen.scss#L8).
-
-### Deployment
-
-This theme is built to be deployed easily to [GitHub Pages](https://pages.github.com/).
+Your directory should look something like this:
+```
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   ├── about.md
+│   └── post
+│       ├── my-first-post.md
+│       └── my-second-post.md
+├── data
+├── layouts
+├── static
+│   └── images
+└── themes
+    └── basics
+```
 
 
-### License
+### Configurations
+#### Add author name
+Add author name to the `.Site.Params.author` parameter in your `config.toml` file.
 
-[MIT](https://github.com/rowanoulton/galileo-theme/blob/master/LICENSE).
+See below for an example:
+```
+baseURL = ""
+languageCode = "en-us"
+title = "Basics Theme Demo"
+theme = "basics"
 
-Do whatever you damn well please with it. I'm always glad to hear what folks are doing with it though — let me know on [Twitter](https://twitter.com/rowanoulton).
+[params]
+    author = "Author Name"
+```
+
+#### Add Links to GitHub and GitLab
+Add GitHub and GitLab usernames to `.Site.Params.github` and `.Site.Params.gitlab` parameters in your `config.toml` file. Links to these accounts would show up in the top navigation bar. If these parameters are not present or is left blank, the links would disappear.
+
+See below for an example:
+```
+baseURL = ""
+languageCode = "en-us"
+title = "Basics Theme Demo"
+theme = "basics"
+
+[params]
+    author = "Author Name"
+    github = "username1"
+    gitlab = "username2"
+```
+
+
+## License
+
+Released under the [MIT License.](https://github.com/arjunkrishnababu96/basics/blob/master/LICENSE.md)
