@@ -1,10 +1,10 @@
-baseURL = "https://jolly-haibt-937465.netlify.com/"
+baseURL = "https://www.laiberia.net"
 languageCode = "es-es"
 title = "La Iberia del siglo XXI"
 theme = "basics"
 
 [params]
-  AuthorName = "LaIberia.net"
+  AuthorName = "Diego"
   ListOfFoo = ["foo1", "foo2"]
   SidebarRecentLimit = 5
   Subtitle = "Nace un nuevo espacio liberal en la web."
