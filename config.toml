@@ -1,7 +1,7 @@
 baseURL = "https://jolly-haibt-937465.netlify.com/"
 languageCode = "es-es"
 title = "La Iberia del siglo XXI"
-
+theme = "basics"
 
 [params]
   AuthorName = "Jon Doe"
@@ -9,7 +9,6 @@ title = "La Iberia del siglo XXI"
   ListOfFoo = ["foo1", "foo2"]
   SidebarRecentLimit = 5
   Subtitle = "Hugo is Absurdly Fast!"
-  theme = basics
 
 [permalinks]
   post = "/:year/:month/:title/"
