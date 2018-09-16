@@ -4,11 +4,10 @@ title = "La Iberia del siglo XXI"
 theme = "basics"
 
 [params]
-  AuthorName = "Jon Doe"
-  GitHubUser = "spf13"
+  AuthorName = "LaIberia.net"
   ListOfFoo = ["foo1", "foo2"]
   SidebarRecentLimit = 5
-  Subtitle = "Hugo is Absurdly Fast!"
+  Subtitle = "Nace un nuevo espacio liberal en la web."
 
 [permalinks]
   post = "/:year/:month/:title/"
