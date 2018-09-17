@@ -7,6 +7,15 @@ body {
     max-width: 50em;
 }
 
+.barrauno {
+	margin-bottom: 0px;
+}
+
+.barrados {
+	margin-top: 0px; 
+
+}
+
 #page-title {
     text-align: center;
 }

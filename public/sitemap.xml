@@ -3,17 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.laiberia.net/2018/09/pr%C3%B3ximamente/</loc>
+    <lastmod>2018-09-16T02:39:08+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.laiberia.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.laiberia.net/</loc>
+    <lastmod>2018-09-16T02:39:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://www.laiberia.net/post/</loc>
+    <lastmod>2018-09-16T02:39:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.laiberia.net/tags/</loc>
     <priority>0</priority>
   </url>
   

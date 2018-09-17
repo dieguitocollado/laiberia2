@@ -1,5 +1,8 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+
+
+    font-family: 'EB Garamond', serif;
+
     margin: auto;
     max-width: 50em;
 }
@@ -28,10 +31,16 @@ body {
 }
 
 .date-time-title {
-    font-family: 'Ubuntu Mono', monospace;
+
+
+    font-family: 'EB Garamond', serif;
+
 }
 
 .blog-post-content {
+	
+    font-family: 'EB Garamond', serif;
+
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -40,8 +49,14 @@ body {
   list-style-type: none;
 }
 
+.responsive {
+	 width: 50%;
+    height: auto;
+}
+
 h1 {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 h2 {
@@ -65,7 +80,10 @@ h6  {
 }
 
 code {
-  font-family: 'Ubuntu Mono', monospace;
+
+
+    font-family: 'EB Garamond', serif;
+
   white-space: pre;
   overflow-x: auto;
 }

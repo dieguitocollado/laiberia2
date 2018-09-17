@@ -41,16 +41,43 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-item nav-link {{ if eq .URL "/"}}active{{ end }}" href="/">Inicio</a>
-              {{ with .Site.Params.github }}<a class="nav-item nav-link" href="https://github.com/{{ . }}" target="_blank">GitHub</a>{{ end }}
-              {{ with .Site.Params.gitlab }}<a class="nav-item nav-link" href="https://gitlab.com/{{ . }}" target="_blank">GitLab</a>{{ end }}
-              <a class="nav-item nav-link {{ if eq .URL "/nosotros/"}}active{{ end }}" href="/nosotros/">Nosotros</a>
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">¿Qué?</a>
+              <a class="nav-item nav-link" href="http://hemerotecadigital.bne.es/details.vm?a=1125620&b=search-visible&t=%2Bcreation&l=500&lang=es&s=0" target="_blank">1854</a>
+			  <a class="nav-item nav-link" href="https://twitter.com/laiberiaXXI" target="_blank">Twitter</a>
+
+			  
             </div>
           </div>
         </nav>
 
         <section id="page-title">
-          <h1><a href="https://www.laiberia.net"><img src="/logo.png" alt="La Iberia del siglo XXI" class="responsive"></a></h1>
+          <h1><a href="/"><img src="/logo.png" alt="La Iberia del siglo XXI" class="responsive"></a></h1>
           <span id="author-name">
             <h6><a href="/about/">{{ .Site.Params.Author }}</a></h6>
           </span>
-        </section>
+		 </section>
+	<hr class="barrauno">
+	<section id="categorias" >
+	          <nav class="navbar navbar-expand-md navbar-light" style="padding: 0rem 0rem; ">
+
+          <!-- empty brandname ensures toggler is on the right; hack really -->
+          <span class="navbar-brand mb-0 h1"></span>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav" >
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Política</a>
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Cine</a>
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Música</a>
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Literatura</a>
+			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Teatro</a>
+
+			  
+            </div>
+          </div>
+        </nav>
+	</section>
+	<hr class="barrados">
