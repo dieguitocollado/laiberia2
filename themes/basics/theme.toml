@@ -4,18 +4,17 @@
 name = "Basics"
 license = "MIT"
 licenselink = "https://github.com/arjunkrishnababu96/basics/blob/master/LICENSE.md"
-description = "A minimal blog theme for those who like it simple."
-homepage = "https://github.com/arjunkrishnababu96/basics"
+description = "Blog basado en Basics, modificado para La Iberia del siglo XXI."
+homepage = "http://diegocollado.net"
 tags = ["minimal", "blog", "personal", "simple", "basic", "clean"]
 features = []
 min_version = "0.38"
 
 [author]
-  name = "Arjun Krishna Babu"
-  homepage = "https://arjunkrishnababu96.github.io/"
+  name = "Diego Collado"
+  homepage = "http://diegocollado.net"
 
 # If porting an existing theme
 [original]
-  name = "Benny Mei"
-  homepage = "https://gitlab.com/meibenny/elephants"
-  repo = "https://github.com/meibenny/elephants"
+  name = "Arjun Krishna Babu"  
+  homepage = "https://arjunkrishnababu96.github.io/"
