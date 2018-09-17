@@ -63,12 +63,12 @@
           <!-- empty brandname ensures toggler is on the right; hack really -->
           <span class="navbar-brand mb-0 h1"></span>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation" name="button">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
-            <div class="navbar-nav" >
+            <div class="navbar-nav" style="
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;">
 			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Política</a>
 			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Cine</a>
 			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Música</a>
@@ -76,8 +76,7 @@
 			  <a class="nav-item nav-link {{ if eq .URL "/proximamente/"}}active{{ end }}" href="/proximamente/">Teatro</a>
 
 			  
-            </div>
           </div>
         </nav>
 	</section>
-	<hr class="barrados">
+	<hr class="barrados" >
